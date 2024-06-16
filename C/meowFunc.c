@@ -2,7 +2,8 @@
 
 void meow(int n);
 
-int main() {
+int main()
+{
     int n;
     printf("Enter The Number of Iterartions: ");
     scanf("%d", &n);
@@ -12,7 +13,8 @@ int main() {
 
 void meow(int n)
 {
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         printf("Meow\n");
     }
 }

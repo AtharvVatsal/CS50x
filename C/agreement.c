@@ -1,14 +1,20 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     char option;
     printf("Enter 'Y' To Agree, 'N' otherwise: ");
     scanf("%c", &option);
-    if (option == 'y' || option == 'Y') {
+    if (option == 'y' || option == 'Y')
+    {
         printf("Agreed\n");
-    } else if (option == 'n' || option == 'N') {
+    }
+    else if (option == 'n' || option == 'N')
+    {
         printf("Not Agreed\n");
-    } else {
+    }
+    else
+    {
         printf("Invalid Choice\n");
     }
     return 0;
